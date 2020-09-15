@@ -1,6 +1,7 @@
 # conding: utf-8
 opcao = -1
-tela_inicial = '''«««««|Sistema de Gestão Financeira|»»»»»
+tela_inicial = '''\
+«««««|Sistema de Gestão Financeira|»»»»»
 
  1 « Cadastros
  2 « Lançamentos
