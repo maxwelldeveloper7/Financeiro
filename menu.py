@@ -1,8 +1,12 @@
+# conding: utf-8
 opcao = -1
-titulo_ = "---|Sistema de Gestão Financeira|---"
-rodape = "------------------------------------"
-print(titulo_)
-print()
-print("Escolha uma opção:")
-print()
-print(rodape)
+tela_inicial = '''«««««|Sistema de Gestão Financeira|»»»»»
+
+ 1 « Cadastros
+ 2 « Lançamentos
+ 3 « Relátorios
+ 0 « Sair
+ '''
+
+print(tela_inicial)
+opcao = input("Escolha uma opção: ")
