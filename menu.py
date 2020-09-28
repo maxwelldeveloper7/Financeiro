@@ -3,9 +3,9 @@ opcao = -1
 tela_inicial = '''\
 «««««|Sistema de Gestão Financeira|»»»»»
 
- 1 « Cadastros
- 2 « Lançamentos
- 3 « Relátorios
+ 1 » Cadastros
+ 2 » Lançamentos
+ 3 » Relátorios
  0 « Sair
  '''
 
