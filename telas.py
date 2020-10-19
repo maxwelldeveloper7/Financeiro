@@ -1,3 +1,5 @@
+import os
+
 def tela_inicial():	
 	tela = '''\
 «««««|Sistema de Gestão Financeira|»»»»»
