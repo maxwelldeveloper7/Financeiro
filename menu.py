@@ -1,13 +1,9 @@
 # conding: utf-8
+from telas import *
+import os
+
 opcao = -1
-tela_inicial = '''\
-«««««|Sistema de Gestão Financeira|»»»»»
-
- 1 » Cadastros
- 2 » Lançamentos
- 3 » Relátorios
- 0 « Sair
- '''
-
-print(tela_inicial)
-opcao = input("Escolha uma opção: ")
+while opcao != 0:
+	tela_inicial()
+	opcao = int(input("Escolha uma opção: "))
+	os.system('clear') or None
