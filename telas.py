@@ -1,7 +1,6 @@
 import os
 
 def tela_inicial():	
-	
 	tela = '''\
 «««««|Sistema de Gestão Financeira|»»»»»
 
@@ -35,7 +34,7 @@ def tela_lancamentos():
  2 » Proventos Recebidos
  3 » Pagamentos de Clientes a Receber
  4 » Pagamentos de Clientes Recebidos
- 5 » Dízimos e Ofertas a Devolver
+ 5 » Doações a Entregar
  6 » Despesas a Pagar
  7 » Despesas pagas
  8 » Transferência de Valores entre Contas
