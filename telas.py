@@ -2,7 +2,7 @@ import os
 
 def tela_inicial():	
 	tela = '''\
-«««««|Sistema de Gestão Financeira|»»»»»
+«««««|\033[1mSistema de Gestão Financeira\033[0m|»»»»»
 
  1 » Cadastros
  2 » Lançamentos
@@ -14,7 +14,7 @@ def tela_inicial():
 def tela_cadastros():	
 	
 	tela = '''\
-«««««|Cadastros|»»»»»
+«««««|\033[1mCadastros\033[0m|»»»»»
 
  1 » Proventos e/ou Serviços Prestados
  2 » Clientes
@@ -28,16 +28,13 @@ def tela_cadastros():
 def tela_lancamentos():	
 	
 	tela = '''\
-«««««|Gegistro de Lançamentos|»»»»»
+«««««|\033[1mLançamentos\033[0m|»»»»»
 
- 1 » Proventos a Receber
- 2 » Proventos Recebidos
- 3 » Pagamentos de Clientes a Receber
- 4 » Pagamentos de Clientes Recebidos
- 5 » Doações a Entregar
- 6 » Despesas a Pagar
- 7 » Despesas pagas
- 8 » Transferência de Valores entre Contas
+ 1 » Proventos
+ 2 » Pagamentos de Clientes
+ 3 » Doações a Entregar
+ 4 » Despesas
+ 5 » Transferência de Valores entre Contas
  0 « Voltar
  '''
 	print(tela)

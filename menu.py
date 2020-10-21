@@ -4,7 +4,9 @@ import os
 
 opcoes = [0, 1, 2, 3]
 
-mensagem = "\nEscolha uma opção: "
+msg_entrada = "\nEscolha uma opção: "
+msg_erro = "\033[1m\033[31mOpção inválida!\033[0m" + msg_entrada
+mensagem = msg_entrada
 
 while True:
 	os.system('clear') or None
@@ -15,7 +17,7 @@ while True:
 		opcao = -1
 	
 	if opcao in opcoes:
-		mensagem = "\nEscolha uma opção: "
+		mensagem = msg_entrada
 		
 		if opcao == 0:
 			break
@@ -31,14 +33,14 @@ while True:
 					op1 = -1
 		
 				if op1 in opcoes_1:
-					mensagem = "\nEscolha uma opção: "
+					mensagem = msg_entrada
 					if op1 == 0:
 						break
 				else:
-					mensagem = "Opção inválida!\nEscolha uma opção: "
+					mensagem = msg_erro
 		
 		if opcao == 2:
-			opcoes_2 = [0, 1, 2, 3, 4, 5, 6, 7, 8]
+			opcoes_2 = [0, 1, 2, 3, 4, 5]
 			while True:
 				os.system('clear') or None
 				tela_lancamentos()
@@ -48,14 +50,14 @@ while True:
 					op2 = -1
 		
 				if op2 in opcoes_2:
-					mensagem = "\nEscolha uma opção: "
+					mensagem = msg_entrada
 					if op2 == 0:
 						break
 				else:
-					mensagem = "Opção inválida!\nEscolha uma opção: "
+					mensagem = msg_erro
 	else:
-		mensagem = "Opção inválida!\nEscolha uma opção: "
+		mensagem = msg_erro
 	
 			
 os.system('clear') or None
-print("\nVocê saiu da aplicação, até mais!")
+print("\nVocê saiu da aplicação, até mais!\n")
