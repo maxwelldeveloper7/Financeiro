@@ -1,5 +1,5 @@
 # conding: utf-8
-from telas import *
+import telas
 import os
 
 opcoes = [0, 1, 2, 3]
@@ -10,7 +10,7 @@ mensagem = msg_entrada
 
 while True:
 	os.system('clear') or None
-	tela_inicial()
+	telas.inicial()
 	try:
 		opcao = int(input(mensagem))
 	except ValueError:
@@ -26,7 +26,7 @@ while True:
 			opcoes_1 = [0, 1, 2, 3, 4, 5]
 			while True:
 				os.system('clear') or None
-				tela_cadastros()
+				telas.cadastros()
 				try:
 					op1 = int(input(mensagem))
 				except ValueError:
@@ -43,7 +43,7 @@ while True:
 			opcoes_2 = [0, 1, 2, 3, 4, 5]
 			while True:
 				os.system('clear') or None
-				tela_lancamentos()
+				telas.movimento()
 				try:
 					op2 = int(input(mensagem))
 				except ValueError:

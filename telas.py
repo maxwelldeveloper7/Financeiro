@@ -1,17 +1,17 @@
 import os
 
-def tela_inicial():	
+def inicial():	
 	tela = '''\
 «««««|\033[1mSistema de Gestão Financeira\033[0m|»»»»»
 
  1 » Cadastros
- 2 » Lançamentos
+ 2 » Movimento
  3 » Relátorios
  0 « Sair
  '''
 	print(tela)
 
-def tela_cadastros():	
+def cadastros():	
 	
 	tela = '''\
 «««««|\033[1mCadastros\033[0m|»»»»»
@@ -25,10 +25,10 @@ def tela_cadastros():
  '''
 	print(tela)
 
-def tela_lancamentos():	
+def movimento():	
 	
 	tela = '''\
-«««««|\033[1mLançamentos\033[0m|»»»»»
+«««««|\033[1mMovimento\033[0m|»»»»»
 
  1 » Proventos
  2 » Pagamentos de Clientes
