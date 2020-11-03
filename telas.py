@@ -5,7 +5,7 @@ def inicial():
 «««««|\033[1mSistema de Gestão Financeira\033[0m|»»»»»
 
  1 » Cadastros
- 2 » Movimento
+ 2 » Histórico
  3 » Relátorios
  0 « Sair
  '''
@@ -16,7 +16,7 @@ def cadastros():
 	tela = '''\
 «««««|\033[1mCadastros\033[0m|»»»»»
 
- 1 » Proventos e/ou Serviços Prestados
+ 1 » Categorias
  2 » Clientes
  3 » Despesas
  4 » Doações
@@ -28,7 +28,7 @@ def cadastros():
 def movimento():	
 	
 	tela = '''\
-«««««|\033[1mMovimento\033[0m|»»»»»
+«««««|\033[1mHistórico\033[0m|»»»»»
 
  1 » Proventos
  2 » Pagamentos de Clientes
